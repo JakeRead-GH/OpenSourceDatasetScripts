@@ -15,7 +15,7 @@ from io import StringIO
 
 load_dotenv()
 
-GITHUB_ACCESS_TOKEN: Final[str] = "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"
+GITHUB_ACCESS_TOKEN: Final[str] = "<Your Token>"
 
 apps = pd.read_excel("dataset.xlsx")
 repoList = apps["Repo Link"]
